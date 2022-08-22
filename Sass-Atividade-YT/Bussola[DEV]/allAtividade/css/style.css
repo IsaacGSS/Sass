@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 150px;
+  margin-bottom: 10px;
+  background-color: red;
+}
+
+main {
+  height: 150px;
+  margin-bottom: 10px;
+  background-color: red;
+}
+main:hover {
+  background-color: #f3c600;
+}
+main div p {
+  font-size: 3rem;
+  text-align: center;
+}
+main div p:hover {
+  color: blue;
+}
+
+footer {
+  height: 150px;
+  margin-bottom: 10px;
+  background-color: #f3c600;
+}/*# sourceMappingURL=style.css.map */

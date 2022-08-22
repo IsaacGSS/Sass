@@ -1,0 +1,18 @@
+main{
+  
+  @include tema;
+
+    &:hover {
+    background-color: $colorBgHover;
+    }
+  div{
+    p{
+      font-size: 3rem;
+      text-align: center;
+
+      &:hover{
+        color: $colorTextHover;
+      }
+    }
+  }
+}

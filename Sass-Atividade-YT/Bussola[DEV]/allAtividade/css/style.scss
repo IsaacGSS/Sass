@@ -1,0 +1,18 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+$colorBgHover: #f3c600;
+$colorTextHover: blue;
+
+@mixin tema($colorBg: red) {
+  height: 150px;
+  margin-bottom: 10px;
+  background-color: $colorBg;
+}
+
+@import './header';
+@import './main';
+@import './footer';
